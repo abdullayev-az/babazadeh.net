@@ -1,0 +1,94 @@
+@-webkit-keyframes pulsate {
+    0% {
+        -webkit-transform: scale(0.1, 0.1);
+        opacity: 0.0;
+    }
+
+    50% {
+        opacity: 1.0;
+    }
+
+    100% {
+        -webkit-transform: scale(1.2, 1.2);
+        opacity: 0.0;
+    }
+}
+
+@keyframes two {
+    from {
+        stroke-dashoffset: 232.26;
+    }
+
+    to {
+        stroke-dashoffset: 00;
+    }
+}
+
+@keyframes en {
+    from {
+        stroke-dashoffset: 232.26;
+    }
+
+    to {
+        stroke-dashoffset: 155;
+    }
+}
+
+
+
+@keyframes tr {
+    from {
+        stroke-dashoffset: 232.26;
+    }
+
+    to {
+        stroke-dashoffset: 110;
+    }
+}
+
+@keyframes progress1 {
+    0% {
+        width: 0%;
+        background-color: #ffc10751;
+    }
+
+    100% {
+        width: 90%;
+        background-color: #FFC107;
+    }
+}
+
+@keyframes progress2 {
+    0% {
+        width: 0%;
+        background-color: #ffc10751;
+    }
+
+    100% {
+        width: 70%;
+        background-color: #FFC107;
+    }
+}
+
+@keyframes progress3 {
+    0% {
+        width: 0%;
+        background-color: #ffc10751;
+    }
+
+    100% {
+        width: 50%;
+        background-color: #FFC107;
+    }
+}
+@keyframes progress4 {
+    0% {
+        width: 0%;
+        background-color: #ffc10751;
+    }
+
+    100% {
+        width: 20%;
+        background-color: #FFC107;
+    }
+}
